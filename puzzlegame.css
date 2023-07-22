@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(87, 63, 3);
+}
+
+#title{
+    height: 150px;
+    width: 400px;
+}
+figure {
+    display: inline-block;
+    
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    
+    text-align: center;
+}
+
+.original-image{
+    width: 10em;
+    height: 10em;
+}
+
+figcaption {
+    display: block;
+}
+
+
+#board{
+    width: 360px;
+    height: 360px;
+    background-color: lightblue;
+    border: 5px solid rgb(87, 63, 3);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#board img{
+    width: 118px;
+    height: 118px;
+    border: 1px solid rgb(87, 63, 3);
+
+
+}
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba( 0, 0, 0, 0.4);
+
+}
+#showScore a{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color: #2d3436;
+
+}
+
+#showScore h3{
+    /* background-color: #55efc4; */
+    color: black;
+    /* padding: 1rem 3rem; */
+    /* outline: none; */
+    font-size: 2rem;
+    font-size: 400;
+    /* display: block; */
+    /* margin: auto;
+    border: none; */
+    text-transform: uppercase;
+    /* background-color: #74b9ff; */
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+
+#showScore a{
+    background-color: rgba(58, 164, 127, 0.17);
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 4rem;
+
+}
+/* .scoreArea{
+    display: none;
+
+}  */
+
+.restart {
+    /* padding: 1rem 3rem; */
+    margin: 0;
+    border: black;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.level{
+    padding: 1rem 3rem;
+    margin: 0;
+    border: black;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.home {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    margin: 0;
+    border: black;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.level a{
+    text-align: center;
+    color: black;
+}
+
+.home a{
+    text-align: center;
+    color: black;
+}
+
+.restart a{
+    margin-top: 2rem;
+    text-align: center;
+    color: black;
+}
+
+#timer {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+ 
+
+.scoreArea{
+    display: none;
+}
